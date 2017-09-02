@@ -1,0 +1,52 @@
+h1 {
+	height: 50px;
+	width: 150px;
+	background-color: #ee7600;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+#description {
+	height: 400px;
+	width: 450px;
+	background-color: #f5f5dc;
+	color: #228B22;
+}
+
+p { 
+	padding-top: 20px;
+}
+
+#generated-number {
+	height: 100px;
+	width: 200px;
+	background-color: #2E8B57;
+	color: white;
+	font-style: bold;
+}
+
+#scoreboard {
+	height: 100px;
+	width: 100px;
+	background-color: #00FFFF;
+	color: black;
+
+}
+
+#total-score {
+	height: 50px;
+	width: 150px;
+	background-color: #20B2AA;
+	color: white;
+	margin-bottom: 20px;
+}
+
+#guess-count{
+	width: 200px;
+	height: 100px;
+	background-color: #20B2AA;
+	color: white;
+}
+
+
+

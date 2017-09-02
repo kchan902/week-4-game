@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="./assets/css/reset.css">
+	<link rel="stylesheet" href="./assets/css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	
+
+</head>
+<body>
+
+
+	<h1>Crystals Collector!</h1>
+
+
+	<section id="description">
+		<p>You will be given a random number at the start of the game</p>
+
+		<p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score</p>
+
+		<p>You win the game by matching your total score to a random number, you lose the game if your total score goes above the random number</p>
+
+		<p>The value of each crystal is hidden from you until you click on it.</p>
+
+		<p>Each time when the game starts, the game will change the values of each crystal</p>
+
+	</section> 
+
+	<section id="generated-number">
+		random number generated
+	</section>
+
+	<section id="scoreboard">
+		<span id="win"> Wins:</span>
+		<span id="losses">Losses:</span>
+		
+	</section>
+
+	<section
+		id="crystal-buttons"
+	>
+		<img
+			id="crystal1"
+			src="./assets/images/bluecrystal.png"
+			alt="bluecrystal"
+			style="width:150px;height:150px;"/>
+		<img id="crystal2" src="./assets/images/purplecrystal.png" alt="purplecrystal" style="width:150px;height:150px;">
+		<img id="crystal3" src="./assets/images/greencrystal.png" alt="greencrystal" style="width:150px;height:150px;">
+		<img id="crystal4" src="./assets/images/yellowcrystal.png" alt="yellowcrystal" style="width:150px;height:150px;">
+	</section>
+
+	<section id="total-score">
+		<p>Your total score is:</p>
+	</section>
+
+	<section id="guess-count">
+		
+		
+	</section>
+
+	<script src="./assets/javascript/game.js"></script>
+	
+</body>
+</html>
